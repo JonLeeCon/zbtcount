@@ -1,0 +1,10 @@
+[package]
+name = "zbtcount"
+version = "0.1.0"
+authors = ["Jonathan Constantinides <jonleecon@gmail.com>"]
+
+[dependencies]
+error-chain = "0.10.0"
+
+[profile.release]
+lto = true
